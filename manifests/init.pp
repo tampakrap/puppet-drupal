@@ -9,6 +9,7 @@ class drupal (
     ensure   => $ensure,
     use      => $gentoo_use,
     keywords => $gentoo_keywords,
+    target   => 'drupal',
   }
 
 }
