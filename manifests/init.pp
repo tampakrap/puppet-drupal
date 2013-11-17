@@ -10,7 +10,7 @@ class drupal (
     ensure   => $ensure,
     use      => $gentoo_use,
     keywords => $gentoo_keywords,
-    mask     => $gentoo_mask,
+    mask_version => $gentoo_mask,
     target   => 'drupal',
   }
 
